@@ -1,8 +1,8 @@
 
-@media (max-width: 960px) {
+@media (max-width: 1600px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 600px;
   }
 }
 @media (max-width: 720px) {
@@ -16,6 +16,16 @@
   .container {
     width: 300px;
   }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 2px 3px 2px #D9DBE0;
+}
+
+.card {
+  padding: 0.5em;
 }
 
 body {
@@ -44,14 +54,6 @@ a {
 
 a:hover {
   color: #CCB7AE;
-}
-
-.container {
-  margin: 0 auto;
-}
-
-.card {
-  padding: 0.5em;
 }
 
 img {
