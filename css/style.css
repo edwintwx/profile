@@ -1,0 +1,77 @@
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #FCFFFC;
+  color: #706677;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: #706677;
+  font-family: 'Candal', sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  color: #A07178;
+  font-size: 1.5em;
+}
+
+a {
+  color: #5A5353;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #CCB7AE;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  padding: 0.5em;
+}
+
+img {
+  width: 250px;
+  object-fit: center
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+}
