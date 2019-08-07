@@ -19,14 +19,15 @@
 }
 
 .container {
-  background-color: #D9DBE0;
   margin: 0 auto;
   padding: 30px;
-  box-shadow: 5px 5px 15px #A1A6B4;
 }
 
 .card {
-  padding: 0.5em;
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 1em;
+  box-shadow: 5px 5px 15px #A1A6B4;
 }
 
 
@@ -55,10 +56,31 @@ h2 {
 a {
   color: #5A5353;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a:hover {
   color: #CCB7AE;
+}
+
+#introduction {
+  padding: 50px;
+}
+
+#introduction p {
+  margin-bottom: 40px
+}
+
+#follow-me h2 {
+  color: black;
+}
+
+#follow-me i {
+  font-size: 2em;
+}
+
+p {
+  display: block;
 }
 
 img {
@@ -81,4 +103,11 @@ img {
 .list-inline > li {
   display: inline-block;
   padding: 0px 5px;
+}
+
+.btn-grey {
+  background-color: #A07178;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
 }
